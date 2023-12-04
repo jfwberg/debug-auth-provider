@@ -1,0 +1,35 @@
+{
+	"orgName": "Debug Auth. Provider - Scratch Org",
+	"edition": "Enterprise",
+	"features": [
+		"EnableSetPasswordInApi",
+        "PersonAccounts",
+        "PlatformCache",
+        "PlatformEncryption",
+        "EinsteinGPTForDevelopers"
+	],
+	"language": "en_US",
+	"country": "GB",
+	"settings": {
+		"lightningExperienceSettings": {
+			"enableS1DesktopEnabled": true
+		},
+		"mobileSettings": {
+			"enableS1EncryptedStoragePref2": false
+		},
+		"securitySettings": {
+			"canUsersGrantLoginAccess": false,
+			"enableAdminLoginAsAnyUser": false,
+			"sessionSettings": {
+				"sessionTimeout": "TwentyFourHours"
+			},
+			"passwordPolicies": {
+				"expiration": "Never",
+				"historyRestriction": "0"
+			},
+			"singleSignOnSettings": {
+				"enableSamlLogin": true
+			}
+        }
+	}
+}

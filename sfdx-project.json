@@ -1,0 +1,24 @@
+{
+  "packageDirectories": [
+    {
+      "path": "force-app",
+      "default": true
+    },
+    {
+      "path": "force-app",
+      "package": "Debug Auth Provider (Unlocked)",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "versionDescription": "An Auth Provider for debugging running user context"
+    }
+  ],
+  "name": "debug-auth-provider",
+  "namespace": "",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "59.0",
+  "packageAliases": {
+    "Debug Auth Provider (Unlocked)": "0Ho6S000000TN36SAG",
+    "Debug Auth Provider (Unlocked)@0.1.0-1": "04t6S00000161A5QAI"
+  }
+}
